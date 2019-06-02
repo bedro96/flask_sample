@@ -4,4 +4,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello World! just for now {{% os.getcwd() %}}"
+    return "Hello World! just for now "
